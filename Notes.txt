@@ -1,4 +1,4 @@
-Si vous souhaitez créer un site web pour lire les films stockés localement, sans utiliser WordPress et en codant tout vous-même, vous pouvez suivre ces étapes :
+Si vous souhaitez créer un site web pour lire les seriess stockés localement, sans utiliser WordPress et en codant tout vous-même, vous pouvez suivre ces étapes :
 
 1. Configuration de l'environnement de développement :
    - Installez un serveur local sur votre ordinateur, tel que XAMPP, WAMP ou MAMP, pour exécuter votre site web en local.
@@ -6,19 +6,19 @@ Si vous souhaitez créer un site web pour lire les films stockés localement, sa
 
 2. Création de la structure du site web :
    - Créez un répertoire principal pour votre site web et organisez les fichiers en conséquence.
-   - Créez un fichier HTML pour chaque page que vous souhaitez inclure, par exemple, une page d'accueil, une page de recherche, des pages de détail de films, etc.
+   - Créez un fichier HTML pour chaque page que vous souhaitez inclure, par exemple, une page d'accueil, une page de recherche, des pages de détail de seriess, etc.
 
 3. Conception et mise en page :
    - Concevez l'apparence de votre site web en utilisant HTML et CSS.
    - Développez un design attrayant et convivial en utilisant des balises HTML pour structurer votre contenu et des styles CSS pour la mise en page et la présentation.
 
-4. Intégration de la lecture des films :
-   - Utilisez des balises HTML5 vidéo pour intégrer la lecture des films dans votre site web.
+4. Intégration de la lecture des seriess :
+   - Utilisez des balises HTML5 vidéo pour intégrer la lecture des seriess dans votre site web.
    - Assurez-vous d'inclure les chemins d'accès corrects vers les fichiers vidéo stockés localement sur votre ordinateur.
 
 5. Programmation et fonctionnalités :
-   - Utilisez JavaScript pour ajouter des fonctionnalités interactives à votre site web, telles que la recherche de films, le tri, la lecture/pause des vidéos, etc.
-   - Écrivez des scripts JavaScript pour interagir avec les fichiers vidéo, afficher les informations des films, gérer les événements utilisateur, etc.
+   - Utilisez JavaScript pour ajouter des fonctionnalités interactives à votre site web, telles que la recherche de seriess, le tri, la lecture/pause des vidéos, etc.
+   - Écrivez des scripts JavaScript pour interagir avec les fichiers vidéo, afficher les informations des seriess, gérer les événements utilisateur, etc.
 
 6. Test et débogage :
    - Testez votre site web en local pour vous assurer que toutes les fonctionnalités fonctionnent correctement.
@@ -29,10 +29,10 @@ Si vous souhaitez créer un site web pour lire les films stockés localement, sa
    - Obtenez votre adresse IP publique et configurez votre routeur pour rediriger les requêtes HTTP vers votre ordinateur local.
 
 8. Sécurité :
-   - Protégez votre site web en configurant un mot de passe ou un système d'authentification pour empêcher l'accès non autorisé à vos films.
+   - Protégez votre site web en configurant un mot de passe ou un système d'authentification pour empêcher l'accès non autorisé à vos seriess.
    - Gardez à l'esprit que votre site web ne sera accessible que depuis votre réseau résidentiel, mais il est toujours important de prendre des mesures de sécurité appropriées.
 
 9. Maintenance continue :
-   - Mettez régulièrement à jour votre site web en ajoutant de nouveaux films, en améliorant les fonctionnalités existantes ou en corrigeant les éventuels problèmes.
+   - Mettez régulièrement à jour votre site web en ajoutant de nouveaux seriess, en améliorant les fonctionnalités existantes ou en corrigeant les éventuels problèmes.
 
 N'oubliez pas que créer un site web complet à partir de zéro demande des connaissances en développement web. Si vous n'êtes pas familier avec la programmation et le développement web, vous pouvez envisager de suivre des tutoriels en ligne, d'apprendre les langages nécessaires et de progresser à votre rythme.

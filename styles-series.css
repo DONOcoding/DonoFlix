@@ -1,0 +1,120 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles de base */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles de la barre de navigation */
+  nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  nav .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  nav .logo h1 {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  nav .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  
+  nav .nav-links li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav .nav-links li a:hover {
+    color: #e50914;
+  }
+  
+  /* Styles pour les emplacements des series */
+  .series {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; /* Centre horizontalement les lignes de series */
+  }
+  
+  .titre {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .serie-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre horizontalement les cartes de series */
+    margin-bottom: 20px;
+  }
+  
+  .serie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px #e50914;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 200px;
+    margin: 0 10px 20px; /* Ajuste l'espace entre les cartes */
+  }
+  
+  .serie-card img {
+    width: 100%;
+    height: 200px; /* Ajuste la hauteur de l'image */
+    object-fit: cover; /* Empêche les images de se déformer */
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .serie-card .movie-details {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .serie-card h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .serie-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  

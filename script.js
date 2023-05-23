@@ -21,17 +21,17 @@ function showMessage() {
   showMessage();
   changeHeroBackground();
 
-  // Code JavaScript pour les emplacements des films récents
-  var filmCards = document.querySelectorAll(".film-card");
+  // Code JavaScript pour les emplacements des seriess récents
+  var seriesCards = document.querySelectorAll(".series-card");
   
-  // Fonction de gestionnaire d'événement pour le clic sur un emplacement de film
-  function handleFilmCardClick() {
+  // Fonction de gestionnaire d'événement pour le clic sur un emplacement de series
+  function handleseriesCardClick() {
     var title = this.querySelector("h3").innerText;
-    alert("Vous avez cliqué sur le film : " + title);
+    alert("Vous avez cliqué sur le series : " + title);
   }
   
-  // Ajout du gestionnaire d'événement pour chaque emplacement de film
-  filmCards.forEach(function(card) {
-    card.addEventListener("click", handleFilmCardClick);
+  // Ajout du gestionnaire d'événement pour chaque emplacement de series
+  seriesCards.forEach(function(card) {
+    card.addEventListener("click", handleseriesCardClick);
   });
   
