@@ -64,15 +64,18 @@ nav .nav-links li a:hover {
 /* Styles pour les emplacements des films */
 .films {
   margin-top: 40px;
-  display: flex;
-  justify-content: center; /* Centre horizontalement les lignes de films */
 }
 
 .titre {
-  color: #fff;
-  font-size: 36px;
-  text-align: center;
+  font-size: 28px;
   margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #e50914;
+  height: 35px;
+  width: 250px;
+  position: relative;
+  left: 800px;
 }
 
 .film-row {
